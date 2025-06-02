@@ -1,0 +1,9 @@
+.start_button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1rem;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}

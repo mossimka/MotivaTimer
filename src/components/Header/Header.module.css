@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 3rem;
+  width: auto;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin: 0;
+  text-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+h1:hover {
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+  text-shadow: var(--color-shadow);
+}
