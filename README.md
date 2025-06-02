@@ -1,7 +1,9 @@
 # MotivaTimer
 Little app for setting and completing goal while time is going. Enjot nice cites and be Motivated!
 
-*Link to the live website: https://motiva-timer.vercel.app/main*
+*Link to the live website: https://motiva-timer.vercel.app*
+
+I copleted this as a part of nFactorial Incubator course as a homework for 1 day
 
 # React + TypeScript + Vite
 
