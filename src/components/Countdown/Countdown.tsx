@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import StartButton from '../StartButton/StartButton';
 import StylesButton from '../StartButton/StartButton.module.css';

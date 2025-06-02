@@ -1,7 +1,6 @@
-import React from 'react'
 import Styles from './StartButton.module.css'
 
-const StartButton = ({ onClick, text }) => {
+const StartButton = ({ onClick, text }:  {onClick: () => void; text: string }) => {
   return (
     <button className={Styles.start_button} onClick={onClick}>
       {text}
