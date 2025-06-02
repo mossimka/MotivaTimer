@@ -1,0 +1,82 @@
+.input_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input_box h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: var(--shadow);
+}
+
+.input_box label {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.input_box_input {
+  padding: 0.8rem 1.2rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 300px;
+  transition: all 0.3s ease;
+}
+
+.input_box_input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: var(--color-shadow);
+}
+
+.choises {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.choises_box {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choises_box_box {
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.choises_box_box h3 {
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.choises_box:hover .choises_box_box {
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--color-shadow);
+}
+
+.active .choises_box_box {
+  background-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--color-shadow);
+}
