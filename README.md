@@ -1,6 +1,8 @@
 # MotivaTimer
 Little app for setting and completing goal while time is going. Enjot nice cites and be Motivated!
 
+*Link to the live website: https://motiva-timer.vercel.app/main*
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
